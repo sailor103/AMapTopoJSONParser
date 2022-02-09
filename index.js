@@ -1,5 +1,4 @@
 const fs = require('fs');
-const _ = require('loadsh');
 const Const = require('./Const')
 const geomUtils = require('./geomUtils')
 const bbIdxBuilder = require('./bbIdxBuilder')
@@ -37,6 +36,3 @@ const geoJSON = {
 }
 
 fs.writeFileSync('./data/an_370000.geojson', JSON.stringify(geoJSON), 'utf8')
-
-
-console.log(buildData.getSubFeatures());

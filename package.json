@@ -8,7 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "loadsh": "0.0.4"
-  }
+  "dependencies": {}
 }
